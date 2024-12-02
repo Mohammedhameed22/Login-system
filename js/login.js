@@ -17,7 +17,7 @@ function checkUser(){
         if(userName.value==users[i].name && password.value==users[i].password){
             var x =users[i].name;
             localStorage.setItem('username',x);
-            location.href='../home.html';
+            window.location.href='home.html';
             break;
         }
 

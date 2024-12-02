@@ -29,7 +29,7 @@ function addUser(){
         users.push(user);
         console.log(users);
         formmAlert.classList.remove('d-none');
-        location.href='../index.html';
+        window.location.href='index.html';
        localStorage.setItem('users',JSON.stringify(users));
        console.log(users);
 
