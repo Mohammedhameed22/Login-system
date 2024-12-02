@@ -1,0 +1,17 @@
+body{
+    background-color:#24353F ;
+}
+.container{
+    background-color:#23333D ;
+}
+.boxshadow{
+    
+        box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.container h1{
+    color:rgb(23, 162, 184) ;
+}
+
+.form-control{
+    color: white;
+}
